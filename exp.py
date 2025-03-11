@@ -1,14 +1,14 @@
-def case1():
+def speed_poly2():
     print("You selected Option 1")
 
-def case2():
+def torque_linear():
     print("You selected Option 2")
 
-def case3():
-    print("You selected Option 3")
+#def case3():
+    #print("You selected Option 3")
 
-def default_case():
-    print("Invalid option selected")
+#def default_case():
+    #print("Invalid option selected")
 
 def switch_case(option):
     # Dictionary mapping options to functions
