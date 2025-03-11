@@ -21,7 +21,7 @@ def switch_case(option):
     # Get the function from the dictionary, default to default_case if option is not found
     selected_case = switch_dict.get(option, default_case)
     
-    Execute the selected function
+    # Execute the selected function
     selected_case()
 
 # Main program
