@@ -11,3 +11,7 @@ data = pd.read_csv(file_csv)
 current = data['current'].values
 torque = data['torque'].values
 speed = data['speed'].values
+
+#Battery line
+Batt_volt = int(input("Enter battery voltage: "))
+Batt_a = int(input("Enter battery current: ")}
