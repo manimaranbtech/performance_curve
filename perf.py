@@ -18,9 +18,12 @@ x2 = int(input("Enter battery current: "))
 x1 = 0
 y1 = 0
 m = (y2-y1)/(x2-x1)
-A_first = current[0]  #first value from current array
 A_last = current[-1]+10    #last value from current array
-current_bat_line = np.linspace(A_first, A_last, 10)
-print(A_first. A_last)
+current_bat_line = np.linspace(0, A_last, 10)
+print(A_last)
 print(current_bat_line)
 print(m)
+voltage = -(current_bat_line*m) + 12
+print(voltage)
+plt.plot(current, voltage)
+plt.savefig('my_plot.png')
