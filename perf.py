@@ -13,5 +13,10 @@ torque = data['torque'].values
 speed = data['speed'].values
 
 #Battery line
-Batt_volt = int(input("Enter battery voltage: "))
-Batt_a = int(input("Enter battery current: ")}
+y2 = int(input("Enter battery voltage: "))
+x2 = int(input("Enter battery current: "))
+x1 = 0
+y1 = 0
+m = (y2-y1)/(x2-x1)
+voltage = current*m
+print(voltage)
