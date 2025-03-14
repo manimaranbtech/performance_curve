@@ -13,13 +13,13 @@ torque = data['torque'].values
 speed = data['speed'].values
 
 #Battery line
-y2 = int(input("Enter battery voltage: "))
-x2 = int(input("Enter battery current: "))
-x1 = 0
-y1 = 12
-m = (y2-y1)/(x2-x1)
-A_last = current[-1]+10    #last value from current array
-current_bat_line = np.linspace(0, A_last, 10)
-voltage = (current_bat_line*m) + 12
-plt.plot(current_bat_line, voltage)
-plt.savefig('my_plot.png')
+#y2 = int(input("Enter battery voltage: "))
+#x2 = int(input("Enter battery current: "))
+#x1 = 0
+#y1 = 12
+#m = (y2-y1)/(x2-x1)
+#A_last = current[-1]+10    #last value from current array
+#current_bat_line = np.linspace(0, A_last, 10)
+#voltage = (current_bat_line*m) + 12
+#plt.plot(current_bat_line, voltage)
+#plt.savefig('my_plot.png')
